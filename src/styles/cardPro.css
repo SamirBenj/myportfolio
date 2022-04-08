@@ -1,0 +1,60 @@
+.cardProject{
+    background-color: #093c7383;
+    border-radius: 16px;
+    margin: 30px;
+    box-shadow: 5px 9px 56px -23px #000000af;
+    transition: 0.5s;
+
+}
+
+.cardProject:hover{
+    transform: scale(1.1);
+}
+.cardProject img{
+    width: 360px;
+    border-radius: 30px;
+}
+.gridProject{
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(3,0fr);
+    grid-row-gap: 40px;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+@media screen and (max-width: 690px){
+    .gridProject{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); 
+        grid-gap: 45px;
+        justify-content: center;
+       }
+    }
+
+    @media screen and (max-width: 1000px){
+        .gridProject{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr); 
+            grid-gap: 45px;
+            justify-content: center;
+        }
+        }
+img{
+    padding: 20px;
+}
+.cardProject h3{
+    font-size: 20px;
+    text-align: start;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+h2 {
+    text-align: center;
+
+}
+
+#chatClass img{
+    /* height: 500px; */
+}

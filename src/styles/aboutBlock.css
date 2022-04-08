@@ -1,0 +1,89 @@
+.gridBlock{
+    text-align: center;
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr); 
+    grid-column-gap: 0px;
+    grid-row-gap: 0px; 
+    flex-wrap: wrap;
+}
+
+section{
+    padding-top: 90px;
+    text-align: center;
+
+}
+.parag1{
+    text-align: start;
+    padding-left: 50px;
+}
+
+h1{
+    color: #276ED9;
+    font-family: 'MonstserrateExtraBold';
+}
+h3{
+    color: #276ED9;
+    font-family: 'MonstserrateExtraBold';
+}
+h2{
+    color: #276ED9;
+}
+h4 {
+    font-family: 'MonstserratSemiBold';
+    color: #276ED9;
+}
+.textBlock2{
+    line-height: 30px;
+}
+span {
+    color: white;
+}
+.listSocialNetwork{
+    display: inline-flex;
+    list-style: none;
+    
+}
+.listSocialNetwork li {
+    margin: 10px;
+    vertical-align: middle;
+}
+
+.footerList {
+    display: inline-flex;
+    color: #276ED9;
+    list-style: none;
+}
+.footerList li{
+    font-size: 15px;
+}
+.copyRight{
+    color: #276ED9;
+    list-style: none;
+}
+.copyRight li {
+    font-size: 15px;
+}
+
+/*responsive option navbar*/
+
+@media screen and (max-width: 690px){
+    .gridBlock{
+        display: grid;
+        grid-template-columns: repeat(1, 0fr); 
+        grid-gap: 45px;
+        justify-content: center;
+       }
+    }
+@font-face {
+    font-family: 'MonstserratSemiBold';
+    src: url('../assets/Montserrat/static/Montserrat-SemiBold.ttf');
+}
+@font-face {
+    font-family: 'MontserrateBlack';
+    src: url('../assets/Montserrat/static/Montserrat-Black.ttf');
+}
+
+@font-face {
+    font-family: 'MonstserrateExtraBold';
+    src: url('../assets/Montserrat/static/Montserrat-ExtraBold.ttf');
+}

@@ -1,0 +1,85 @@
+nav {
+    /* position: fixed; */
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 58px;
+    /* background: linear-gradient(45deg, rgb(156, 14, 156), midnightblue); */
+}
+
+.list {
+    list-style-type: none;
+    /* background: linear-gradient(45deg, rgb(156, 14, 156), midnightblue); */
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: relative;
+    padding-right: 20px;
+    
+}
+.items {
+    margin-right: 20px;
+    font-size: 20px;
+    /* text-transform: uppercase; */
+    color: #f1f1f1;
+    cursor: pointer;
+}
+
+#myBtn {
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 7px;
+    padding: 5px;
+    color: #000;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 500px){
+    .list {
+        flex-direction: column;
+        height: auto;
+        background-color: #276ed9c2;
+        width: '100%';
+    }
+    .items:nth-child(1){
+        border-top: 1px solid rgba(255, 255, 255, 0.555);
+        margin-top: 50px;
+    }
+    .items {
+        width: '100%';
+        border-top: 1px solid rgba(255, 255, 255, 0.555);
+        margin-right: 0px;
+        padding: 20px 0;
+    }
+    .btn {
+        display: block;
+        
+    }
+    #myBtn{
+        display: block;
+    }
+}
+li{
+    font-family: 'MonstserratSemiBold';
+    font-size: 10px;
+}
+
+.logoName {
+    font-family: 'MontserrateBlack';
+    font-size: 30px;
+    color: #276ED9;
+}
+
+@font-face {
+    font-family: 'MonstserratSemiBold';
+    src: url('../assets/Montserrat/static/Montserrat-SemiBold.ttf');
+}
+@font-face {
+    font-family: 'MontserrateBlack';
+    src: url('../assets/Montserrat/static/Montserrat-Black.ttf');
+}
+.link {
+    text-decoration: none;
+}
