@@ -9,14 +9,14 @@ const MySocialNetworkBlock = ()=>{
             <h2>YOU CAN FIND ME ON</h2>
             <ul className='listSocialNetwork'>
                 <li>
-                <img src={linkedin} width={'50px'}/>
+                <img onClick={()=>window.location.href="https://www.linkedin.com/in/samir-benjalloul-026501195/"} src={linkedin} width={'100px'}/>
                 
                 </li>
                 <li>
-                <img src={youtube} style={{paddingTop:'10px'}} width={'100px'}/>
+                <img onClick={()=>window.location.href="https://www.youtube.com/watch?v=uGjLV9320oA"} src={youtube} style={{paddingTop:'30px'}} width={'100px'}/>
                 </li>
                 <li>
-                <img src={github} style={{borderRadius:'50px'}} width={'80px'}/>
+                <img onClick={()=>window.location.href="https://github.com/SamirBenj"} src={github} style={{borderRadius:'50px'}} width={'100px'}/>
 
                 </li>
             </ul>

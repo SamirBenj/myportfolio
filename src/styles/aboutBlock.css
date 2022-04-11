@@ -74,6 +74,11 @@ span {
         justify-content: center;
        }
     }
+    @media screen and (max-width: 690px){
+        .parag1{
+           padding-left: 15px;
+           }
+        }
 @font-face {
     font-family: 'MonstserratSemiBold';
     src: url('../assets/Montserrat/static/Montserrat-SemiBold.ttf');

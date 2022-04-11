@@ -1,5 +1,14 @@
 {
   "projects": {
-    "default": "portfolio-f8e74"
+    "default": "portfol-a9eae"
+  },
+  "targets": {
+    "portfol-a9eae": {
+      "hosting": {
+        "samir": [
+          "samirbenjalloul1"
+        ]
+      }
+    }
   }
 }
